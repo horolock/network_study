@@ -2,6 +2,6 @@ cmake_minimum_required(VERSION 3.12)
 
 project(address_data)
 
-add_executable(inet_address_conv inet_address_conv.c)
+add_executable(conv_address conv_address.c)
 
-target_link_libraries(inet_address_conv ws2_32)
+target_link_libraries(conv_address ws2_32)
